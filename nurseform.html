@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Form</title>
+    <link rel="stylesheet" href="./nurseform.css">
+</head>
+<body>
+<div class="form-container"><img src="./images/Final.svg" alt="topBar"></div>
+<div class="overlay-form">
+<h2>MEDICAL FORM</h2>
+<p>Please fill out the following medical form to provide us with important <br>
+    information about your medical history, allergies, and current medications:</p>
+<form action="save_patient.php"  method="post">
+    <h4>PERSONAL INFORMATION</h4>
+    <label for="fname">First Name:</label> &nbsp; &nbsp;&nbsp;
+    <input type="text" id="fname" name="firstName" style="width: 77%;"><br> <br>
+
+    <label for="lname">Last Name:</label> &nbsp; &nbsp;&nbsp;  
+    <input type="text" id="lname" name="lastName" style="width: 77%;"><br> <br>
+
+    <label for="dob">Date of Birth:</label> &nbsp;
+    <input type="date" id="dob" name="dateOfBirth"> &nbsp;
+
+    <label for="gender">Gender: </label>
+    <input type="radio" id="male" name="gender" value="Male"> Male 
+    <input type="radio" id="female" name="gender" value="Female"> Female <br> <br>
+     
+    <label for="address">Address:</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="text" id="address" name="address" style="width: 77%;"><br> <br>
+
+    <label for="phoneNumber">Phone Number:</label> 
+    <input type="text" id="phoneNumber" name="phoneNumber" class="no-spinners" >
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" style="width: 170px;"><br>
+
+    <h4>EMERGENCY CONTACT INFORMATION</h4>
+
+    <label for="emergencyName">Name:</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="text" id="emergencyName" name="emergencyName" style="width: 77%;"><br> <br>
+
+    <label for="relationship">Relationship:</label> &nbsp;
+    <input type="text" id="relationship" name="relationship" style="width: 77%;"><br> <br>
+
+    <label for="emergencyPhone">Phone Number:</label>
+    <input type="text" id="emergencyPhone" name="emergencyPhone" style="width: 75%;" class="no-spinners"><br> <br>
+
+    <label for="message">REASON FOR CONSULTATION:</label> <br>
+    <textarea id="message" name="reasonForConsultation" style="height:100px; width: 150%;"></textarea><br>
+
+    <input type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+</html>

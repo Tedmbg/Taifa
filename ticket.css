@@ -1,0 +1,39 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #fffeec;
+}
+
+.overlay{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    transform: translate(-30%, -50%);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.form-field {
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    width: calc(100% - 30px);
+    font-size: 20px;
+}
+.form-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: #fff1e6; /* Adjust the color as necessary */
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 20px;
+}
+

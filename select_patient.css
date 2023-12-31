@@ -1,0 +1,40 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+}
+.patient-section{
+    height:100dvh;      
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    justify-content: center;
+}
+label{
+    font-size:1.2em;
+}
+.form input{
+    padding:15px;
+    width:80%;
+    border:1px solid black;
+    border-radius:5px;
+}
+.search{
+    width:40%;
+    padding:9px;
+    font-size:0.9em;
+    border:none;
+    border-radius:10px;
+}
+.btn{
+    width:40%;
+    padding:10px;
+    font-size:0.9em;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+}
